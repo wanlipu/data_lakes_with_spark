@@ -1,14 +1,12 @@
 # Project - Data Lakes with Spark
 
-This is part of Udacity Data Engineering Program, and this repository is meant to document my progress towards data lake project completion.
-
 ## Project Context and Purpose
 A music streaming startup, Sparkify, has grown its user base and song database and want to move its processes and data onto the cloud. Its data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
 As their data engineer, I am tasked with building an ETL pipeline that extracts the data from S3, processes them using Spark, and loads the data back into S3 as a set of dimensional tables. This will allow the analytics team to continue finding insights in what songs the users are listening to.
 
 ## Project Description
-In this project, I will apply what I've learned on Spark and data lakes to build an ETL pipeline for a data lake hosted on S3. To complete the project, I will need to load data from S3, process the data into analytics tables using Spark, and load them back into S3. I'll deploy this Spark process on a cluster using AWS.
+In this project, I will apply Spark and data lakes to build an ETL pipeline for a data lake hosted on S3. To complete the project, I will need to load data from S3, process the data into analytics tables using Spark, and load them back into S3. I'll deploy this Spark process on a cluster using AWS.
 
 ## Dataset
 ### Song Dataset
